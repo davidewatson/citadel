@@ -1,0 +1,7 @@
+domain: k8s.facebook.com
+repo: github.com/davidewatson/citadel
+resources:
+- group: citadel
+  kind: KeychainSecret
+  version: v1
+version: "2"
